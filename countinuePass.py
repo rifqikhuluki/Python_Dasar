@@ -4,18 +4,26 @@
 
 angka = 0
 
+# while angka < 5 :
+#     angka += 1
+
+#     if angka == 3 :
+#         pass# tidak di eksekusi
+    
+#     print(angka)
+
+# while angka < 5 :
+#     angka += 1
+
+#     if angka == 3 :
+#         continue# dilewati
+    
+#     print(angka)
+
 while angka < 5 :
     angka += 1
 
     if angka == 3 :
-        pass# tidak di eksekusi
-    
-    print(angka)
+        break #ketika break maka sistem langsung berhenti
 
-while angka < 5 :
-    angka += 1
-
-    if angka == 3 :
-        continue
-    
     print(angka)
