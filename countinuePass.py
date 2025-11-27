@@ -1,0 +1,29 @@
+# countinue, pass, break
+
+# pass -> berfungsi sebagai dummy, tidak akan di eksekui
+
+angka = 0
+
+# while angka < 5 :
+#     angka += 1
+
+#     if angka == 3 :
+#         pass# tidak di eksekusi
+    
+#     print(angka)
+
+# while angka < 5 :
+#     angka += 1
+
+#     if angka == 3 :
+#         continue# dilewati
+    
+#     print(angka)
+
+while angka < 5 :
+    angka += 1
+
+    if angka == 3 :
+        break #ketika break maka sistem langsung berhenti
+
+    print(angka)
